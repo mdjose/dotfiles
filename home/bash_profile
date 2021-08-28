@@ -1,0 +1,15 @@
+#
+# ~/.bash_profile
+#
+
+[[ -f ~/.bashrc ]] && . ~/.bashrc
+
+export XKB_DEFAULT_LAYOUT=br
+export XDG_SESSION_TYPE=wayland
+export QT_QPA_PLATFORM=wayland
+export CLUTTER_BACKEND=wayland
+export SDL_VIDEODRIVER=x11
+export ECORE_EVAS_ENGINE=wayland_egl
+export ELM_DISPLAY=wl
+export ELM_ACCEL=opengl
+export MOZ_ENABLE_WAYLAND=1
